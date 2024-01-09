@@ -60,20 +60,20 @@
   <header id="header" class="header d-flex align-items-center">
 
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="{% url 'index' %}" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1>Impact<span>.</span></h1>
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="{% static '#hero' %}">Home</a></li>
-          <li><a href="{% static '#about' %}">About</a></li>
-          <li><a href="{% static '#services' %}">Services</a></li>
-          <li><a href="{% static '#portfolio' %}">Portfolio</a></li>
-          <li><a href="{% static '#team' %}">Team</a></li>
-          <li><a href="{% static 'blog.html' %}">Blog</a></li>
-          <li class="dropdown"><a href="{% static '#' %}"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href='#hero'>Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="{% static '#' %}"><span>Case Studies</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="{% static '#' %}"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -126,7 +126,7 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-easel"></i></div>
-              <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <h4 class="title"><a href="" class="stretched-link">Web Development</a></h4>
             </div>
           </div><!--End Icon Box -->
 
