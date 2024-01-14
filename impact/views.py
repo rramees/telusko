@@ -24,3 +24,9 @@ def index(request):
     products = [prod1 , prod2 , prod3 ]
     
     return render(request, 'index.html' ,{'products': products})
+
+
+
+def hospital_management_system(request):
+    return render(request, 'hospital_management_system.html')
+
