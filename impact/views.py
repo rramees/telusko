@@ -30,3 +30,11 @@ def index(request):
 def hospital_management_system(request):
     return render(request, 'hospital_management_system.html')
 
+def order_tracking_solution(request):
+    return render(request, 'order-tracking-solution.html')
+
+def track_and_trace(request):
+    return render(request, 'track-and-trace.html')
+
+def materiflow_pro(request):
+    return render(request, 'materiflow-pro.html')
